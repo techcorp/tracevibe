@@ -29,14 +29,14 @@ python --version
 ### Step 1: Clone the Repository
 Clone the TraceVibe repository to your local machine:
 ```bash
-git clone https://github.com/<your-username>/tracevibe.git
+git clone https://github.com/techcorp/tracevibe.git
 cd tracevibe
 ```
 
 ### Step 2: Install Dependencies
 Install the required Python packages using pip:
 ```bash
-pip install requests beautifulsoup4 rich pandas
+pip install requirements.txt
 ```
 
 - `requests`: For making HTTP requests to check usernames.
@@ -100,13 +100,13 @@ john_doe
 #### Interactive Mode (Option 1)
 ```
 [bold magenta]
-      ___________________
-     /                   \
-    /  _____ ______  ___ \
-   /  /     |  ____||   \ \
-  /  /      | |     | |\ \ \
- /  /_______| |____ | | \ \ \
-/__________________|_|  \_\_\
+___________                        ____   ____._____.           
+\__    ___/___________    ____  ___\   \ /   /|__\_ |__   ____  
+  |    |  \_  __ \__  \ _/ ___\/ __ \   Y   / |  || __ \_/ __ \ 
+  |    |   |  | \// __ \\  \__\  ___/\     /  |  || \_\ \  ___/ 
+  |____|   |__|  |____  /\___  >___  >\___/   |__||___  /\___  >
+                      \/     \/    \/                 \/     \/ 
+
     [/bold magenta]
 [bold cyan]Welcome to TraceVibe! 🔍[/bold cyan]
 Trace usernames across platforms with ease.
